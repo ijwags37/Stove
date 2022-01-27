@@ -8,6 +8,10 @@ import java.util.ArrayList;
  * 
  * Purpose: Simulates a stove
  */
+
+public enum temperature{
+	HOT, WARM, COLD
+}
 public class Stove {
 	// Our stove will have 4 burners
 	public final static int NUM_BURNERS = 4;
