@@ -9,9 +9,6 @@ import java.util.ArrayList;
  * Purpose: Simulates a stove
  */
 
-public enum temperature{
-	HOT, WARM, COLD
-}
 public class Stove {
 	// Our stove will have 4 burners
 	public final static int NUM_BURNERS = 4;
@@ -34,7 +31,16 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
-
+		Boolean hot = false;
+		for(auto i : burners) {
+			if(i.display() == "+++") {
+				hot = true;
+			}
+			System.out.println(i);
+		}
+		if(hot) {
+			System.out.println("RED LIGHT - HOT BURNER ALERT");
+		}
 	}
 	
 	/**
