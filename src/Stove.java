@@ -31,9 +31,9 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {                                    // Display stove works with the burner class to show the state of the stove
-		Boolean hot = false;                                        // This bool is used to tell if any of the burners are blazing, which triggers an alert at the end of the print
+		Boolean hot = false;                                        // This boolean is used to tell if any of the burners are blazing, which triggers an alert at the end of the print
 		for(Burner i : burners) {                                   
-			if(i.getMyTemperature() == Burner.Temperature.BLAZING) { // This changes the bool if any are blazing
+			if(i.getMyTemperature() == Burner.Temperature.BLAZING) { // This changes the boolean if any are blazing
 				hot = true;                                          
 			}
 			i.display();                                               // Calls burner method for ease of access to the information
