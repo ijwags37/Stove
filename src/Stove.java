@@ -34,12 +34,12 @@ public class Stove {
 		Boolean hot = false;                                        // This bool is used to tell if any of the burners are blazing, which triggers an alert at the end of the print
 		for(Burner i : burners) {                                   
 			if(i.getMyTemperature() == Burner.Temperature.BLAZING) { // This changes the bool if any are blazing
-				hot = true;
+				hot = true;                                          
 			}
-			i.display();
+			i.display();                                               // Calls burner method for ease of access to the information
 		}
 		if(hot) {
-			System.out.println("RED LIGHT - HOT BURNER ALERT");
+			System.out.println("RED LIGHT - HOT BURNER ALERT");      // Boolean is evaluated to see if the alert should be displayed
 		}
 	}
 	
