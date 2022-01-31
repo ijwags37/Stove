@@ -1,0 +1,41 @@
+Michael Tate
+Isaac Wagner
+I, Michael Tate, certify that I participated equitably in the creation of assignment C06A, dated Jan 30.
+I, Isaac Wagner, certify that I participated equitably in the creation of this assignment C06A, dated Jan 30.
+
+
+commit 1400f1c466d6288006fe846637b0b4af6f35efcf
+Author: Michael-Tate <tate@mines.edu>
+Date:   Sun Jan 30 23:00:34 2022 -0700
+
+    Added in comments to allow for ease of grading/use
+
+commit cb055b392e218dfc57c32419005e7fea17bf6f6f
+Author: Michael-Tate <tate@mines.edu>
+Date:   Sun Jan 30 22:40:34 2022 -0700
+
+    changed the displayStove function to have access to the burner's enum
+
+commit a6241b10f158a3d54a8ebf03e43a9d0f8c7e80f5
+Author: Michael-Tate <tate@mines.edu>
+Date:   Sun Jan 30 22:38:41 2022 -0700
+
+    Added in the burner clas
+
+commit f0b0305b92e9409b9de7ecd1946c415ce3065381
+Author: Michael-Tate <tate@mines.edu>
+Date:   Thu Jan 27 13:37:17 2022 -0700
+
+    Added functionality to setting enum and altered the display() function of the stove
+
+commit 1640b5202be4a4abda5334f513b73c6870d8e68c
+Author: Michael-Tate <tate@mines.edu>
+Date:   Thu Jan 27 13:13:38 2022 -0700
+
+    added the enums
+
+commit e3be125b22ec5978eefca89e46219f9a44350fa7
+Author: Michael-Tate <tate@mines.edu>
+Date:   Thu Jan 27 13:08:57 2022 -0700
+
+    initial commit
